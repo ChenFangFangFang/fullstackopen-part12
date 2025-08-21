@@ -1,0 +1,14 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "Blog application with separate frontend and backend",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "author": "Shiyang Chen",
+  "license": "ISC"
+}
